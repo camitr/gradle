@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+	<project name="hello worl" default="amit">
+	<target name="amit">
+		<echo> Hello world in the ant </echo>
+	</target>
+</project>
+
