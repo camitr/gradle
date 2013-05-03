@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+	<project name="Hello Ant world" default="clean-build-all">
+		<property name="bigBlue" value="www.thinking-amit.com"/>
+	<target name="clean-build-all">
+		<echo> Apache Ant version is ${ant.file} - you are at ${bigBlue} </echo>
+	</target>
+
+	<fileset dir="${src}" casesensitive="yes">
+  	<include name="**/*.java"/>
+ 	 <exclude name="**/*Stub*"/>
+	</fileset>
+	</project>

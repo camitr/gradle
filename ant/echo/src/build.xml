@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<project>
+	<!-- to clean the delete the directory -->
+	<target name="clean">
+		<delete dir="build"/>
+	</target>
+
+	<!-- to compile the source and creating the classes directory -->
+
+	<target name="compile">
+		<mkdir dir="build/classes"/>
+		<javac srcdir="." destdir="build/classes"/>
+	</target>
+
+	<!-- to create the jar file-->
+
+	<target name="jar">
+		<mkdir dir="build/jar"/>
+		<jar destfile="build/jar/Echo.jar" basedir="build/classes">
+			<manifest>
+				<attribute name="Main-class" value="Echo"/>
+			</manifest>
+		</jar>
+	</target>
+	
+	<!-- to run the compile the source code -->
+
+	<target name="run">
+		<java jar="build/jar/Echo.jar" fork="true"/>
+	</target>
+
+
+
+</project>
