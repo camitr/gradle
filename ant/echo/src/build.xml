@@ -18,18 +18,31 @@
 	<target name="jar">
 		<mkdir dir="build/jar"/>
 		<jar destfile="build/jar/Echo.jar" basedir="build/classes">
-			<manifest>
+		<!--<jar destfile="build/jar/hello.jar" basedir="build/classes">-->
+		<manifest>
 				<attribute name="Main-class" value="Echo"/>
+				<!--<attribute name="Main-class" value="hello"/>-->
 			</manifest>
 		</jar>
 	</target>
 	
+	<target name="heloojar">
+		<mkdir dir="build/jar"/>
+		<jar destfile="build/jar/hello.jar" basedir="build/classes">
+		<manifest>
+				<attribute name="Main-class" value="hello"/>
+			</manifest>
+		</jar>
+	</target>
 	<!-- to run the compile the source code -->
 
 	<target name="run">
 		<java jar="build/jar/Echo.jar" fork="true"/>
 	</target>
 
+	<target name="runhello">
+		<java jar="build/jar/hello.jar" fork="true"/>
+	</target>
 
 
 </project>
