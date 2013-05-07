@@ -52,8 +52,10 @@ Preparation of project
 
 
 
+* errors 
 
 
+# ``The markup in the document following the root element must be well-formed.``  It comes because project tag is closed in the begning. 
 
-
-_  
+# ``warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds``  Solution to this problem including the tag <javac includeantruntime="false" ..../>
+  

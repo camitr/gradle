@@ -53,7 +53,7 @@ endobj
  /Dest [ 8 0 R
  /XYZ
  68.69291
- 199.3843
+ 127.3843
  0 ]
  /Rect [ 429.5629
  364.1736
@@ -74,9 +74,9 @@ endobj
  377.4236
  0 ]
  /Rect [ 68.69291
- 186.1343
+ 114.1343
  74.25291
- 198.1343 ]
+ 126.1343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -113,7 +113,7 @@ endobj
 % 'R10': class PDFInfo 
 10 0 obj
 << /Author ()
- /CreationDate (D:20130503175554-05'00')
+ /CreationDate (D:20130507151930-05'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
@@ -147,7 +147,7 @@ endobj
 % 'R14': class PDFStream 
 14 0 obj
 % page stream
-<< /Length 5167 >>
+<< /Length 6132 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -381,21 +381,56 @@ q
 1 0 0 1 62.69291 300.4236 cm
 Q
 q
+1 0 0 1 62.69291 294.4236 cm
+Q
+q
+1 0 0 1 62.69291 294.4236 cm
+Q
+q
 1 0 0 1 62.69291 282.4236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (_) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
 Q
 Q
 q
-1 0 0 1 62.69291 225.7307 cm
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (errors) Tj T* ET
+Q
 Q
 q
-1 0 0 1 62.69291 197.3843 cm
+Q
+Q
+q
+1 0 0 1 62.69291 282.4236 cm
+Q
+q
+1 0 0 1 62.69291 252.4236 cm
+q
+BT 1 0 0 1 0 14 Tm .460751 Tw 12 TL /F1 10 Tf 0 0 0 rg (# ) Tj /F4 10 Tf (The markup in the document following the root element must be well-formed. ) Tj /F1 10 Tf (It) Tj T* 0 Tw (comes because project tag is closed in the begning.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 210.4236 cm
+q
+BT 1 0 0 1 0 26 Tm 18.33282 Tw 12 TL /F1 10 Tf 0 0 0 rg (# ) Tj /F4 10 Tf (warning: 'includeantruntime' was not set, defaulting to) Tj T* 0 Tw .861976 Tw (build.sysclasspath=last; set to false for repeatable builds ) Tj /F1 10 Tf (Solution to this problem) Tj T* 0 Tw (including the tag <) Tj (javac includeantruntime="false" ..../) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 153.7307 cm
+Q
+q
+1 0 0 1 62.69291 125.3843 cm
 n 0 14.17323 m 469.8898 14.17323 l S
 Q
 q
-1 0 0 1 62.69291 173.3843 cm
+1 0 0 1 62.69291 101.3843 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -446,16 +481,16 @@ xref
 0000002276 00000 n
 0000002427 00000 n
 0000002534 00000 n
-0000007804 00000 n
-0000007897 00000 n
+0000008769 00000 n
+0000008862 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(4k4\340\371\256=K\217\3054\335\353V\271\306) (4k4\340\371\256=K\217\3054\335\353V\271\306)] 
+ [(8_\372\001\332\342\376:JQ\215\206\025\012\271\334) (8_\372\001\332\342\376:JQ\215\206\025\012\271\334)] 
 
  /Info 10 0 R
  /Root 9 0 R
  /Size 17 >>
 startxref
-7944
+8909
 %%EOF
